@@ -1,8 +1,7 @@
 ## Hi, I'm Yoav Sborovsky 👋
 
-Full-stack developer & ML practitioner based in Tel Aviv. I build web applications with Python and Django, and implement machine learning models from scratch.
+Software & Automation engineer based in London. I build web applications with Python and Django, and implement machine learning models from scratch.
 
-Currently focused on expanding my full-stack skills and working on production-grade Python tools.
 
 ---
 
