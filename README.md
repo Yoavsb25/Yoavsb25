@@ -42,7 +42,7 @@ Full-stack developer and ML practitioner building web applications and machine l
 |---------|-------------|-------|--------|
 | [AlertBuddy](https://github.com/Yoavsb25/AlertBuddy) | Real-time safety alert app with friend network and location-aware alerts | Django · Python · Vercel | ![Active](https://img.shields.io/badge/Active-7C3AED?style=flat-square) |
 | [PDF Batch Merger](https://github.com/Yoavsb25/files_unifeder) | Desktop tool for high-volume PDF batch merging | Python · Desktop | ![Active](https://img.shields.io/badge/Active-7C3AED?style=flat-square) |
-| [ML Algorithms](https://github.com/Yoavsb25/Machine_Learning_HW) | ML algorithms implemented from scratch — linear regression to neural nets | Python · NumPy · Jupyter | ![Active](https://img.shields.io/badge/Active-7C3AED?style=flat-square) |
+| [ML Algorithms](https://github.com/Yoavsb25/ml-projects) | ML algorithms implemented from scratch — linear regression to neural nets | Python · NumPy · Jupyter | ![Active](https://img.shields.io/badge/Active-7C3AED?style=flat-square) |
 | [Portfolio Site](https://github.com/Yoavsb25/PersonalWebsite) | Personal portfolio site hosted on GitHub Pages | HTML · CSS · JS | [![Live](https://img.shields.io/badge/Live-7C3AED?style=flat-square)](https://yoavsb25.github.io/PersonalWebsite) |
 
 ---
