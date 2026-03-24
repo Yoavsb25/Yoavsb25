@@ -1,10 +1,10 @@
 <div align="center">
 
 <a href="https://github.com/Yoavsb25">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=7C3AED&center=true&vCenter=true&width=650&lines=Full-Stack+Developer;Machine+Learning+Practitioner;Python+%7C+Django+%7C+React+%7C+TypeScript;Building+Production-Ready+Applications" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=7C3AED&center=true&vCenter=true&width=650&lines=Full-Stack+Developer;Automation+Engineer;AI+%7C+Passionate" alt="Typing SVG" />
 </a>
 
-**Tel Aviv, Israel · Open to Opportunities**
+**London, United Kingdom**
 
 </div>
 
