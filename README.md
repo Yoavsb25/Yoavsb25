@@ -58,6 +58,7 @@ Experienced in deploying systems, implementing CI/CD workflows, and leveraging A
 
 | Project | Description | Stack |
 |---------|-------------|-------|
+| [claude-code-tools](https://github.com/Yoavsb25/claude-code-tools) | Curated registry of Claude Code skills and automation tools — browse by category, install via `npx @yoavsb25/claude-tools install <name>`. Ships 10 tools with a companion website. | TypeScript · Node.js · GitHub Actions |
 | [AlertBuddy](https://github.com/Yoavsb25/AlertBuddy) | Real-time safety alert platform with friend networks and location-aware notifications. Deployed to production on Vercel. | Django · Python · Vercel |
 | [PDF Batch Merger](https://github.com/Yoavsb25/files_unifeder) | Desktop automation tool for high-volume PDF assembly — takes a spreadsheet as input, outputs merged PDFs at scale. | Python · Desktop |
 | [ML From Scratch](https://github.com/Yoavsb25/ml-projects) | Machine learning algorithms implemented from first principles — linear regression through neural networks, without high-level ML frameworks. | Python · NumPy · Jupyter |
