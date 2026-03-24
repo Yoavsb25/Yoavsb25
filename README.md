@@ -12,9 +12,8 @@
 
 ### About
 
-Full-stack developer and ML practitioner with hands-on experience shipping production web applications and implementing machine learning systems from first principles. I work across the entire stack — from Django REST APIs and database design to React frontends and deployment — and apply ML fundamentals directly in code, not just through high-level library calls.
-
-Currently deepening expertise in production-grade Python systems and full-stack TypeScript development.
+Full-stack developer building end-to-end applications and internal tools.
+Experienced in deploying systems, implementing CI/CD workflows, and leveraging AI to automate repetitive tasks and streamline processes.
 
 ---
 
@@ -66,19 +65,6 @@ Currently deepening expertise in production-grade Python systems and full-stack 
 
 ---
 
-### GitHub Stats
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Yoavsb25&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0D1117&title_color=7C3AED&icon_color=A78BFA)
-&nbsp;
-![GitHub Streak](https://streak-stats.demolab.com?user=Yoavsb25&theme=midnight-purple&hide_border=true&background=0D1117&ring=7C3AED&fire=A78BFA&currStreakLabel=A78BFA)
-&nbsp;
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Yoavsb25&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0D1117&title_color=7C3AED)
-
-</div>
-
----
 
 ### Connect
 
