@@ -8,7 +8,6 @@
 <p>
   <a href="https://yoavsb25.github.io"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-website-dark.svg"><img src="assets/btn-website-light.svg" height="40" alt="Visit my website"></picture></a>
   <a href="https://www.linkedin.com/in/yoav-sborovsky-5a85b41a1/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-linkedin-dark.svg"><img src="assets/btn-linkedin-light.svg" height="40" alt="LinkedIn"></picture></a>
-  <a href="https://yoavsb25.github.io/yoav-sborovsky-cv.pdf"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-cv-dark.svg"><img src="assets/btn-cv-light.svg" height="40" alt="Download CV"></picture></a>
   <a href="mailto:Yoavsb25@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-email-dark.svg"><img src="assets/btn-email-light.svg" height="40" alt="Email me"></picture></a>
 </p>
 
