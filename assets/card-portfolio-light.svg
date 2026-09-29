@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="236" viewBox="0 0 460 236" role="img" aria-label="This website: A portfolio built like a product: planned first, guarded by 7 automatic checks, developed with AI.">
+  <title>This website: A portfolio built like a product: planned first, guarded by 7 automatic checks, developed with AI.</title>
+  <defs>
+  <style>
+    .serif { font-family: "Source Serif 4", "Iowan Old Style", Georgia, "Times New Roman", serif; }
+    .sans  { font-family: "Instrument Sans", -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
+    
+  </style>
+  <clipPath id="c"><rect x="1" y="1" width="458" height="234" rx="20"/></clipPath>
+    <radialGradient id="corner"><stop offset="0" stop-color="#0e7a5a" stop-opacity=".16"/><stop offset="1" stop-color="#0e7a5a" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect x=".5" y=".5" width="459" height="235" rx="20" fill="#ffffff" stroke="#dfe4de"/>
+  <g clip-path="url(#c)"><circle cx="460" cy="0" r="120" fill="url(#corner)"/>
+    <rect x="0" y="0" width="460" height="4" fill="#0e7a5a"/></g>
+  <text x="30" y="46" class="sans" font-size="12" font-weight="600" letter-spacing="1.1" fill="#0e7a5a">FEATURED · AI-BUILT</text>
+  <text x="422" y="50" class="sans" font-size="22" fill="#0e7a5a">→</text>
+  <text x="29" y="90" class="serif" font-size="30" letter-spacing="-.4" fill="#16191d">This website</text>
+  <text x="30" y="124" class="sans" font-size="15.5" fill="#4b535b">A portfolio built like a product: planned first, guarded by</text>
+  <text x="30" y="147" class="sans" font-size="15.5" fill="#4b535b">7 automatic checks, developed with AI.</text>
+  <rect x="30" y="178" width="59.0" height="29" rx="14.5" fill="#dcede4" stroke="none"/><text x="59.5" y="197.2" text-anchor="middle" class="sans" font-size="13" font-weight="500" fill="#0e7a5a">Astro</text>
+  <rect x="97.0" y="178" width="91.0" height="29" rx="14.5" fill="#dcede4" stroke="none"/><text x="142.5" y="197.2" text-anchor="middle" class="sans" font-size="13" font-weight="500" fill="#0e7a5a">TypeScript</text>
+  <rect x="196.0" y="178" width="102.0" height="29" rx="14.5" fill="#dcede4" stroke="none"/><text x="247.0" y="197.2" text-anchor="middle" class="sans" font-size="13" font-weight="500" fill="#0e7a5a">Claude Code</text>
+</svg>

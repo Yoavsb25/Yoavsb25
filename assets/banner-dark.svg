@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-label="Yoav Sborovsky, AI Engineer. I plan AI systems. Then I ship them.">
+  <title>Yoav Sborovsky, AI Engineer. I plan AI systems. Then I ship them.</title>
+  <defs>
+  <style>
+    .serif { font-family: "Source Serif 4", "Iowan Old Style", Georgia, "Times New Roman", serif; }
+    .sans  { font-family: "Instrument Sans", -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
+    
+    .fill { transform-origin: 0 0; animation: grow 2.8s cubic-bezier(.2,.7,.2,1) .4s backwards; }
+    @keyframes grow { from { transform: scaleY(0); } }
+    .dot { animation: on .3s ease backwards; }
+    .tick { animation: tk .3s ease backwards; }
+    @keyframes on { from { fill: #1b2320; stroke: #2a3531; } }
+    @keyframes tk { from { opacity: 0; } }
+    .rise { animation: rise .7s cubic-bezier(.2,.7,.2,1) backwards; }
+    @keyframes rise { from { opacity: .4; transform: translateY(12px); } }
+    @media (prefers-reduced-motion: reduce) { .fill, .dot, .tick, .rise { animation: none; } }
+    
+  </style>
+  <radialGradient id="glow" cx="12%" cy="10%" r="75%">
+      <stop offset="0" stop-color="#5ccf9f" stop-opacity="0.18"/>
+      <stop offset="0.6" stop-color="#5ccf9f" stop-opacity="0.04"/>
+      <stop offset="1" stop-color="#5ccf9f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b2320"/><stop offset="1" stop-color="#18201c"/>
+    </linearGradient>
+    <clipPath id="c"><rect width="960" height="360" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="960" height="360" fill="#121715"/>
+    <rect width="960" height="360" fill="url(#glow)"/>
+    <circle cx="920" cy="400" r="190" fill="#5ccf9f" opacity="0.07"/>
+  </g>
+  <rect x=".5" y=".5" width="959" height="359" rx="19.5" fill="none" stroke="#2a3531"/>
+  <rect x="56" y="52" width="34" height="34" rx="9" fill="#e9eeeb"/>
+  <text x="73" y="75" text-anchor="middle" class="serif" font-size="15" fill="#121715">YS</text>
+  <text x="104" y="74" class="sans" font-size="13" font-weight="600" letter-spacing="1.3" fill="#8f9b95">YOAV SBOROVSKY · AI ENGINEER</text>
+  <g class="rise" style="animation-delay:.05s"><text x="54" y="172" class="serif" font-size="58" letter-spacing="-1.2" fill="#e9eeeb">I plan AI systems.</text></g>
+  <g class="rise" style="animation-delay:.14s"><text x="54" y="236" class="serif" font-size="58" letter-spacing="-1.2" fill="#e9eeeb">Then I <tspan font-style="italic" fill="#5ccf9f">ship</tspan> them.</text></g>
+  <g class="rise" style="animation-delay:.23s">
+    <text x="57" y="286" class="sans" font-size="18" fill="#aeb9b3">From idea to production: planned, built,</text>
+    <text x="57" y="312" class="sans" font-size="18" fill="#aeb9b3">tested, and shipped with care.</text>
+  </g>
+  <rect x="694" y="34" width="232" height="292" rx="18" fill="url(#panel)" stroke="#2a3531"/>
+  <rect x="740.5" y="66" width="3" height="240" rx="1.5" fill="#2a3531"/>
+  <rect class="fill" x="740.5" y="66" width="3" height="240" rx="1.5" fill="#5ccf9f"/>
+  <circle class="dot" style="animation-delay:0.40s" cx="742" cy="66" r="11" fill="#5ccf9f" stroke="#5ccf9f" stroke-width="2"/>
+  <path class="tick" style="animation-delay:0.40s" d="M737.5 66.5 l3 3 l6 -6.5" fill="none" stroke="#0b1511" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="766" y="71" class="sans" font-size="15" font-weight="500" fill="#e9eeeb">Plan</text>
+  <circle class="dot" style="animation-delay:0.87s" cx="742" cy="106" r="11" fill="#5ccf9f" stroke="#5ccf9f" stroke-width="2"/>
+  <path class="tick" style="animation-delay:0.87s" d="M737.5 106.5 l3 3 l6 -6.5" fill="none" stroke="#0b1511" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="766" y="111" class="sans" font-size="15" font-weight="500" fill="#e9eeeb">Foundations</text>
+  <circle class="dot" style="animation-delay:1.33s" cx="742" cy="146" r="11" fill="#5ccf9f" stroke="#5ccf9f" stroke-width="2"/>
+  <path class="tick" style="animation-delay:1.33s" d="M737.5 146.5 l3 3 l6 -6.5" fill="none" stroke="#0b1511" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="766" y="151" class="sans" font-size="15" font-weight="500" fill="#e9eeeb">Architect</text>
+  <circle class="dot" style="animation-delay:1.80s" cx="742" cy="186" r="11" fill="#5ccf9f" stroke="#5ccf9f" stroke-width="2"/>
+  <path class="tick" style="animation-delay:1.80s" d="M737.5 186.5 l3 3 l6 -6.5" fill="none" stroke="#0b1511" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="766" y="191" class="sans" font-size="15" font-weight="500" fill="#e9eeeb">Build</text>
+  <circle class="dot" style="animation-delay:2.27s" cx="742" cy="226" r="11" fill="#5ccf9f" stroke="#5ccf9f" stroke-width="2"/>
+  <path class="tick" style="animation-delay:2.27s" d="M737.5 226.5 l3 3 l6 -6.5" fill="none" stroke="#0b1511" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="766" y="231" class="sans" font-size="15" font-weight="500" fill="#e9eeeb">Test</text>
+  <circle class="dot" style="animation-delay:2.73s" cx="742" cy="266" r="11" fill="#5ccf9f" stroke="#5ccf9f" stroke-width="2"/>
+  <path class="tick" style="animation-delay:2.73s" d="M737.5 266.5 l3 3 l6 -6.5" fill="none" stroke="#0b1511" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="766" y="271" class="sans" font-size="15" font-weight="500" fill="#e9eeeb">Deploy</text>
+  <circle class="dot" style="animation-delay:3.20s" cx="742" cy="306" r="11" fill="#5ccf9f" stroke="#5ccf9f" stroke-width="2"/>
+  <path class="tick" style="animation-delay:3.20s" d="M737.5 306.5 l3 3 l6 -6.5" fill="none" stroke="#0b1511" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="766" y="311" class="sans" font-size="15" font-weight="500" fill="#e9eeeb">Iterate</text>
+</svg>
