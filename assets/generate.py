@@ -157,7 +157,6 @@ def card(t, kicker, title, summary, tags):
 BUTTONS = [
     ("website", "Visit my website  →", True),
     ("linkedin", "LinkedIn", False),
-    ("email", "Email me", False),
 ]
 
 
