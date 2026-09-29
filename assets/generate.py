@@ -171,59 +171,30 @@ def button(t, label, primary):
     return svg(w, h, label.replace("  →", ""), "\n".join(b))
 
 
-# ---------- Pipeline (toolkit by stage) ----------
-PIPELINE = [
-    ("Plan", "", ["Claude Code", "Cursor"]),
-    ("Foundations", "", ["Git", "Linux", "Bash"]),
-    ("Architect", "", ["REST APIs", "SQL", "Docker"]),
-    ("Build", "", ["Python", "TypeScript", "JavaScript", "React", "Flask", "Django"]),
-    ("Test", "", ["Playwright", "Pytest", "Vitest"]),
-    ("Deploy", "", ["GitHub Actions", "CI/CD", "AWS", "ArgoCD/Kargo"]),
-    ("Iterate", "", ["AI agents", "LLM apps"]),
+# ---------- Tech stack ----------
+STACK = [
+    ("AI", ["Claude Code", "Cursor", "AI agents", "LLM apps"]),
+    ("LANGUAGES", ["Python", "TypeScript", "JavaScript", "SQL", "Bash", "Swift"]),
+    ("BACKEND", ["Flask", "Django", "Express", "REST APIs", "Firebase"]),
+    ("FRONTEND", ["React", "Vite", "SwiftUI"]),
+    ("DEVOPS", ["Docker", "AWS", "GitHub Actions", "CI/CD", "ArgoCD/Kargo", "Jenkins", "Linux"]),
+    ("TESTING", ["Pytest", "Playwright", "Vitest", "Ruff"]),
 ]
 
 
-def pipeline(t):
-    W, n = 960, len(PIPELINE)
-    col = W / n
-    rail_y, chip_top, chip_h, chip_gap = 26, 100, 30, 8
-    rows = max(len(tools) for *_, tools in PIPELINE)
-    H = chip_top + rows * (chip_h + chip_gap) + 4
-    css = """
-    .fill { transform-origin: 0 0; animation: grow 2.6s cubic-bezier(.2,.7,.2,1) .3s backwards; }
-    @keyframes grow { from { transform: scaleX(0); } }
-    .dot { animation: on .35s ease backwards; }
-    @keyframes on { from { fill: %(surface)s; } }
-    .num { animation: num .35s ease backwards; }
-    @keyframes num { from { fill: %(ink3)s; } }
-    .col { animation: rise .6s cubic-bezier(.2,.7,.2,1) backwards; }
-    @keyframes rise { from { opacity: 0; transform: translateY(8px); } }
-    @media (prefers-reduced-motion: reduce) { .fill, .dot, .num, .col { animation: none; } }
-    """ % t
-    x0, x1 = col / 2, W - col / 2
-    b = ["  </defs>",
-         f'  <rect x="{x0}" y="{rail_y-1.5}" width="{x1-x0}" height="3" rx="1.5" fill="{t["line"]}"/>',
-         f'  <rect class="fill" x="{x0}" y="{rail_y-1.5}" width="{x1-x0}" height="3" rx="1.5" fill="{t["accent"]}"/>']
-    for i, (label, tagline, tools) in enumerate(PIPELINE):
-        cx = col * i + col / 2
-        d = 0.3 + 2.6 * i / (n - 1)
-        b.append(f'  <circle class="dot" style="animation-delay:{d:.2f}s" cx="{cx:.1f}" cy="{rail_y}" r="17" '
-                 f'fill="{t["accent"]}" stroke="{t["accent"]}" stroke-width="2"/>')
-        b.append(f'  <text class="num sans" style="animation-delay:{d:.2f}s" x="{cx:.1f}" y="{rail_y+4.5}" text-anchor="middle" '
-                 f'font-size="12.5" font-weight="700" fill="{t["accent_ink"]}">{i+1:02d}</text>')
-        g = [f'<text x="{cx:.1f}" y="{rail_y+54}" text-anchor="middle" class="serif" font-size="20" fill="{t["ink"]}">{label}</text>']
-        for j, line in enumerate(wrap(tagline, 12.5, col - 22) if tagline else []):
-            g.append(f'<text x="{cx:.1f}" y="{rail_y+76+j*16}" text-anchor="middle" class="sans" font-size="12.5" fill="{t["ink3"]}">{escape(line)}</text>')
-        for j, tool in enumerate(tools):
-            w = min(width(tool, 13, weight=600) + 26, col - 12)
-            y = chip_top + j * (chip_h + chip_gap)
-            first = j == 0
-            bg, fg, stroke = (t["soft"], t["accent"], "none") if first else (t["surface"], t["ink2"], t["line"])
-            g.append(f'<rect x="{cx-w/2:.1f}" y="{y}" width="{w:.1f}" height="{chip_h}" rx="{chip_h/2}" fill="{bg}" stroke="{stroke}"/>'
-                     f'<text x="{cx:.1f}" y="{y+chip_h/2+4.6:.1f}" text-anchor="middle" class="sans" font-size="13" font-weight="500" fill="{fg}">{escape(tool)}</text>')
-        b.append(f'  <g class="col" style="animation-delay:{d:.2f}s">' + "".join(g) + "</g>")
-    alt = "How I work: " + "; ".join(f"{l} ({', '.join(tools)})" for l, _, tools in PIPELINE)
-    return svg(W, H, alt, "\n".join(b), css)
+def stack(t):
+    W, row, label_w = 960, 48, 120
+    H = 8 + row * len(STACK)
+    b = ["  </defs>"]
+    for i, (label, items) in enumerate(STACK):
+        y = 6 + i * row
+        b.append(f'  <text x="0" y="{y + 20}" class="sans" font-size="12.5" font-weight="600" letter-spacing="1.1" fill="{t["ink3"]}">{label}</text>')
+        x = label_w
+        for item in items:
+            w, el = chip(x, y, item, t, 15, filled=(i == 0))
+            b.append("  " + el)
+            x += w + 10
+    return svg(W, H, "Tech stack: " + "; ".join(f"{l.title()}: {', '.join(i)}" for l, i in STACK), "\n".join(b))
 
 
 if __name__ == "__main__":
@@ -231,7 +202,7 @@ if __name__ == "__main__":
         if f.endswith(".svg"):  # regenerate from scratch
             os.remove(os.path.join(OUT, f))
     for name, t in THEMES.items():
-        files = {f"banner-{name}.svg": banner(t), f"pipeline-{name}.svg": pipeline(t)}
+        files = {f"banner-{name}.svg": banner(t), f"stack-{name}.svg": stack(t)}
         for slug, *p in PROJECTS:
             files[f"card-{slug}-{name}.svg"] = card(t, *p)
         for slug, label, primary in BUTTONS:

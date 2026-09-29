@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="296" viewBox="0 0 960 296" role="img" aria-label="Tech stack: Ai: Claude Code, Cursor, AI agents, LLM apps; Languages: Python, TypeScript, JavaScript, SQL, Bash, Swift; Backend: Flask, Django, Express, REST APIs, Firebase; Frontend: React, Vite, SwiftUI; Devops: Docker, AWS, GitHub Actions, CI/CD, ArgoCD/Kargo, Jenkins, Linux; Testing: Pytest, Playwright, Vitest, Ruff">
+  <title>Tech stack: Ai: Claude Code, Cursor, AI agents, LLM apps; Languages: Python, TypeScript, JavaScript, SQL, Bash, Swift; Backend: Flask, Django, Express, REST APIs, Firebase; Frontend: React, Vite, SwiftUI; Devops: Docker, AWS, GitHub Actions, CI/CD, ArgoCD/Kargo, Jenkins, Linux; Testing: Pytest, Playwright, Vitest, Ruff</title>
+  <defs>
+  <style>
+    .serif { font-family: "Source Serif 4", "Iowan Old Style", Georgia, "Times New Roman", serif; }
+    .sans  { font-family: "Instrument Sans", -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
+    
+  </style>
+  </defs>
+  <text x="0" y="26" class="sans" font-size="12.5" font-weight="600" letter-spacing="1.1" fill="#626b74">AI</text>
+  <rect x="120" y="6" width="113.0" height="31" rx="15.5" fill="#dcede4" stroke="none"/><text x="176.5" y="26.9" text-anchor="middle" class="sans" font-size="15" font-weight="500" fill="#0e7a5a">Claude Code</text>
+  <rect x="243.0" y="6" width="73.0" height="31" rx="15.5" fill="#dcede4" stroke="none"/><text x="279.5" y="26.9" text-anchor="middle" class="sans" font-size="15" font-weight="500" fill="#0e7a5a">Cursor</text>
+  <rect x="326.0" y="6" width="90.0" height="31" rx="15.5" fill="#dcede4" stroke="none"/><text x="371.0" y="26.9" text-anchor="middle" class="sans" font-size="15" font-weight="500" fill="#0e7a5a">AI agents</text>
+  <rect x="426.0" y="6" width="93.0" height="31" rx="15.5" fill="#dcede4" stroke="none"/><text x="472.5" y="26.9" text-anchor="middle" class="sans" font-size="15" font-weight="500" fill="#0e7a5a">LLM apps</text>
+  <text x="0" y="74" class="sans" font-size="12.5" font-weight="600" letter-spacing="1.1" fill="#626b74">LANGUAGES</text>
+  <rect x="120" y="54" width="74.0" height="31" rx="15.5" fill="#ffffff" stroke="#dfe4de"/><text x="157.0" y="74.9" text-anchor="middle" class="sans" font-size="15" font-weight="500" fill="#4b535b">Python</text>
+  <rect x="204.0" y="54" width="99.0" height="31" rx="15.5" fill="#ffffff" stroke="#dfe4de"/><text x="253.5" y="74.9" text-anchor="middle" class="sans" font-size="15" font-weight="500" fill="#4b535b">TypeScript</text>
+  <rect x="313.0" y="54" width="98.0" height="31" rx="15.5" fill="#ffffff" stroke="#dfe4de"/><text x="362.0" y="74.9" text-anchor="middle" class="sans" font-size="15" font-weight="500" fill="#4b535b">JavaScript</text>
+  <rect x="421.0" y="54" width="58.0" height="31" rx="15.5" fill="#ffffff" stroke="#dfe4de"/><text x="450.0" y="74.9" text-anchor="middle" class="sans" font-size="15" font-weight="500" fill="#4b535b">SQL</text>
+  <rect x="489.0" y="54" width="62.0" height="31" rx="15.5" fill="#ffffff" stroke="#dfe4de"/><text x="520.0" y="74.9" text-anchor="middle" class="sans" font-size="15" font-weight="500" fill="#4b535b">Bash</text>
+  <rect x="561.0" y="54" width="60.0" height="31" rx="15.5" fill="#ffffff" stroke="#dfe4de"/><text x="591.0" y="74.9" text-anchor="middle" class="sans" font-size="15" font-weight="500" fill="#4b535b">Swift</text>
+  <text x="0" y="122" class="sans" font-size="12.5" font-weight="600" letter-spacing="1.1" fill="#626b74">BACKEND</text>
+  <rect x="120" y="102" width="64.0" height="31" rx="15.5" fill="#ffffff" stroke="#dfe4de"/><text x="152.0" y="122.9" text-anchor="middle" class="sans" font-size="15" font-weight="500" fill="#4b535b">Flask</text>
+  <rect x="194.0" y="102" width="74.0" height="31" rx="15.5" fill="#ffffff" stroke="#dfe4de"/><text x="231.0" y="122.9" text-anchor="middle" class="sans" font-size="15" font-weight="500" fill="#4b535b">Django</text>
+  <rect x="278.0" y="102" width="83.0" height="31" rx="15.5" fill="#ffffff" stroke="#dfe4de"/><text x="319.5" y="122.9" text-anchor="middle" class="sans" font-size="15" font-weight="500" fill="#4b535b">Express</text>
+  <rect x="371.0" y="102" width="104.0" height="31" rx="15.5" fill="#ffffff" stroke="#dfe4de"/><text x="423.0" y="122.9" text-anchor="middle" class="sans" font-size="15" font-weight="500" fill="#4b535b">REST APIs</text>
+  <rect x="485.0" y="102" width="85.0" height="31" rx="15.5" fill="#ffffff" stroke="#dfe4de"/><text x="527.5" y="122.9" text-anchor="middle" class="sans" font-size="15" font-weight="500" fill="#4b535b">Firebase</text>
+  <text x="0" y="170" class="sans" font-size="12.5" font-weight="600" letter-spacing="1.1" fill="#626b74">FRONTEND</text>
+  <rect x="120" y="150" width="67.0" height="31" rx="15.5" fill="#ffffff" stroke="#dfe4de"/><text x="153.5" y="170.9" text-anchor="middle" class="sans" font-size="15" font-weight="500" fill="#4b535b">React</text>
+  <rect x="197.0" y="150" width="53.0" height="31" rx="15.5" fill="#ffffff" stroke="#dfe4de"/><text x="223.5" y="170.9" text-anchor="middle" class="sans" font-size="15" font-weight="500" fill="#4b535b">Vite</text>
+  <rect x="260.0" y="150" width="75.0" height="31" rx="15.5" fill="#ffffff" stroke="#dfe4de"/><text x="297.5" y="170.9" text-anchor="middle" class="sans" font-size="15" font-weight="500" fill="#4b535b">SwiftUI</text>
+  <text x="0" y="218" class="sans" font-size="12.5" font-weight="600" letter-spacing="1.1" fill="#626b74">DEVOPS</text>
+  <rect x="120" y="198" width="76.0" height="31" rx="15.5" fill="#ffffff" stroke="#dfe4de"/><text x="158.0" y="218.9" text-anchor="middle" class="sans" font-size="15" font-weight="500" fill="#4b535b">Docker</text>
+  <rect x="206.0" y="198" width="62.0" height="31" rx="15.5" fill="#ffffff" stroke="#dfe4de"/><text x="237.0" y="218.9" text-anchor="middle" class="sans" font-size="15" font-weight="500" fill="#4b535b">AWS</text>
+  <rect x="278.0" y="198" width="127.0" height="31" rx="15.5" fill="#ffffff" stroke="#dfe4de"/><text x="341.5" y="218.9" text-anchor="middle" class="sans" font-size="15" font-weight="500" fill="#4b535b">GitHub Actions</text>
+  <rect x="415.0" y="198" width="69.0" height="31" rx="15.5" fill="#ffffff" stroke="#dfe4de"/><text x="449.5" y="218.9" text-anchor="middle" class="sans" font-size="15" font-weight="500" fill="#4b535b">CI/CD</text>
+  <rect x="494.0" y="198" width="124.0" height="31" rx="15.5" fill="#ffffff" stroke="#dfe4de"/><text x="556.0" y="218.9" text-anchor="middle" class="sans" font-size="15" font-weight="500" fill="#4b535b">ArgoCD/Kargo</text>
+  <rect x="628.0" y="198" width="79.0" height="31" rx="15.5" fill="#ffffff" stroke="#dfe4de"/><text x="667.5" y="218.9" text-anchor="middle" class="sans" font-size="15" font-weight="500" fill="#4b535b">Jenkins</text>
+  <rect x="717.0" y="198" width="63.0" height="31" rx="15.5" fill="#ffffff" stroke="#dfe4de"/><text x="748.5" y="218.9" text-anchor="middle" class="sans" font-size="15" font-weight="500" fill="#4b535b">Linux</text>
+  <text x="0" y="266" class="sans" font-size="12.5" font-weight="600" letter-spacing="1.1" fill="#626b74">TESTING</text>
+  <rect x="120" y="246" width="70.0" height="31" rx="15.5" fill="#ffffff" stroke="#dfe4de"/><text x="155.0" y="266.9" text-anchor="middle" class="sans" font-size="15" font-weight="500" fill="#4b535b">Pytest</text>
+  <rect x="200.0" y="246" width="96.0" height="31" rx="15.5" fill="#ffffff" stroke="#dfe4de"/><text x="248.0" y="266.9" text-anchor="middle" class="sans" font-size="15" font-weight="500" fill="#4b535b">Playwright</text>
+  <rect x="306.0" y="246" width="65.0" height="31" rx="15.5" fill="#ffffff" stroke="#dfe4de"/><text x="338.5" y="266.9" text-anchor="middle" class="sans" font-size="15" font-weight="500" fill="#4b535b">Vitest</text>
+  <rect x="381.0" y="246" width="55.0" height="31" rx="15.5" fill="#ffffff" stroke="#dfe4de"/><text x="408.5" y="266.9" text-anchor="middle" class="sans" font-size="15" font-weight="500" fill="#4b535b">Ruff</text>
+</svg>

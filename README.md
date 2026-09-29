@@ -22,6 +22,6 @@
 ### Tech stack
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/pipeline-dark.svg">
-  <img src="assets/pipeline-light.svg" width="100%" alt="My tech stack by stage: Plan (Claude Code, Cursor), Foundations (Git, Linux, Bash), Architect (REST APIs, SQL, Docker), Build (Python, TypeScript, JavaScript, React, Flask, Django), Test (Playwright, Pytest, Vitest), Deploy (GitHub Actions, CI/CD, AWS, ArgoCD/Kargo), Iterate (AI agents, LLM apps).">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+  <img src="assets/stack-light.svg" width="100%" alt="Tech stack. AI: Claude Code, Cursor, AI agents, LLM apps. Languages: Python, TypeScript, JavaScript, SQL, Bash, Swift. Backend: Flask, Django, Express, REST APIs, Firebase. Frontend: React, Vite, SwiftUI. DevOps: Docker, AWS, GitHub Actions, CI/CD, ArgoCD/Kargo, Jenkins, Linux. Testing: Pytest, Playwright, Vitest, Ruff.">
 </picture>
