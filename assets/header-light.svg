@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="380" viewBox="0 0 960 380" role="img" aria-labelledby="t d">
+  <title id="t">Yoav Sborovsky, AI Engineer</title>
+  <desc id="d">I plan AI systems. Then I ship them. AI engineer in London who takes products from idea to production.</desc>
+  <defs>
+    <radialGradient id="glow" cx="18%" cy="30%" r="70%">
+      <stop offset="0" stop-color="#0e7a5a" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#0e7a5a" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="card"><rect width="960" height="380" rx="20"/></clipPath>
+    <style>
+      .serif { font-family: "Source Serif 4", "Iowan Old Style", Georgia, "Times New Roman", serif; }
+      .sans  { font-family: "Instrument Sans", -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
+      .pulse { transform-origin: 67px 71px; animation: pulse 2.4s cubic-bezier(.2,.7,.2,1) infinite; }
+      @keyframes pulse { 0% { opacity: .55; transform: scale(1); } 70% { opacity: 0; transform: scale(2.6); } 100% { opacity: 0; } }
+      @media (prefers-reduced-motion: reduce) { .pulse { animation: none; opacity: 0; } }
+    </style>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="960" height="380" fill="#f5f6f3"/>
+    <rect width="960" height="380" fill="url(#glow)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="959" height="379" rx="19.5" fill="none" stroke="#dfe4de"/>
+
+  <!-- Brand mark -->
+  <rect x="880" y="44" width="34" height="34" rx="9" fill="#16191d"/>
+  <text x="897" y="67" text-anchor="middle" class="serif" font-size="15" fill="#f5f6f3">YS</text>
+
+  <!-- Status line -->
+  <circle class="pulse" cx="67" cy="71" r="4" fill="#0e7a5a"/>
+  <circle cx="67" cy="71" r="4" fill="#0e7a5a"/>
+  <text x="82" y="76" class="sans" font-size="15" font-weight="500" fill="#4b535b">Open to AI engineering roles · London</text>
+
+  <!-- Headline -->
+  <text x="54" y="160" class="serif" font-size="60" letter-spacing="-1.2" fill="#16191d">I plan AI systems.</text>
+  <text x="54" y="222" class="serif" font-size="60" letter-spacing="-1.2" fill="#16191d">Then I <tspan font-style="italic" fill="#0e7a5a">ship</tspan> them.</text>
+
+  <!-- Lede -->
+  <text x="58" y="282" class="sans" font-size="19" fill="#4b535b">AI engineer who takes products from idea to production:</text>
+  <text x="58" y="310" class="sans" font-size="19" fill="#4b535b">planned, built, tested, and shipped.</text>
+
+  <!-- Eyebrow -->
+  <text x="58" y="350" class="sans" font-size="12.5" font-weight="600" letter-spacing="1.1" fill="#626b74">YOAV SBOROVSKY · AI ENGINEER</text>
+</svg>

@@ -1,79 +1,61 @@
-<div align="center">
-
-<a href="https://github.com/Yoavsb25">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=7C3AED&center=true&vCenter=true&width=650&lines=Full-Stack+Developer;Automation+Engineer;AI+Enthusiast" alt="Typing SVG" />
+<a href="https://yoavsb25.github.io">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+    <img src="assets/header-light.svg" width="100%" alt="Yoav Sborovsky, AI Engineer in London. I plan AI systems. Then I ship them.">
+  </picture>
 </a>
 
-**London, United Kingdom**
+<p>
+  <a href="https://yoavsb25.github.io"><b>Website</b></a> ·
+  <a href="https://www.linkedin.com/in/yoav-sborovsky-5a85b41a1/"><b>LinkedIn</b></a> ·
+  <a href="https://yoavsb25.github.io/yoav-sborovsky-cv.pdf"><b>Download CV</b></a> ·
+  <a href="mailto:Yoavsb25@gmail.com"><b>Contact me</b></a>
+</p>
 
-</div>
+I'm Yoav, an AI engineer in London. I take products from idea to production: I plan them, build them, test them, and keep improving them, with the care that makes AI dependable.
 
----
+Most AI projects stall between the demo and the real product. I own the whole path, so nothing gets lost along the way.
 
-### About
+**Plan → Foundations → Architect → Build → Test → Deploy → Iterate**
 
-Full-stack developer building end-to-end applications and internal tools.
-Experienced in deploying systems, implementing CI/CD workflows, and leveraging AI to automate repetitive tasks and streamline processes.
+## Now
 
----
+**Automation Engineer at [SysAid Technologies](https://www.sysaid.com)**, London · 2025 – present
 
-### Tech Stack
+- Built the platform the company uses to release its 29 software components, and automated release coordination across 14 repositories.
+- Created an AI translation tool that covers 7 languages and made translation 75% faster.
+- Built AI assistants (Claude Code) that help engineers find the root cause of incidents and failed tests faster.
 
-**Languages**
+## Selected work
 
-![Python](https://img.shields.io/badge/Python-A78BFA?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-A78BFA?style=for-the-badge&logo=javascript&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-A78BFA?style=for-the-badge&logo=typescript&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-A78BFA?style=for-the-badge&logo=swift&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-A78BFA?style=for-the-badge&logo=postgresql&logoColor=white)
+**[This website, built with AI](https://github.com/Yoavsb25/Yoavsb25.github.io)** · Astro, TypeScript, Claude Code<br>
+A portfolio built the way I build products: planned first, protected by automatic checks, and developed with AI assistants that follow the same rules as a human engineer. Every change must pass 7 checks before it goes live.
 
-**Backend**
+**[Files Unifier](https://github.com/Yoavsb25/files-unifier)** · Python, GitHub Actions<br>
+A desktop tool, sold to a leading Israeli law firm, that turns a spreadsheet into merged, ready-to-send PDFs. Used there every day.
 
-![Django](https://img.shields.io/badge/Django-7C3AED?style=for-the-badge&logo=django&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-7C3AED?style=for-the-badge&logo=node.js&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST_APIs-7C3AED?style=for-the-badge&logo=fastapi&logoColor=white)
+**[Pitch Star](https://github.com/Yoavsb25/fifa-songs-app)** · Swift, SwiftUI, Firebase<br>
+A music quiz app for iPhone: name the year of 800+ FIFA soundtrack songs. Daily challenges and a subscription model, built solo from idea to finished app.
 
-**Frontend & Mobile**
+**[Claude Code tools](https://github.com/Yoavsb25/claude-code-tools)** · TypeScript, Node.js<br>
+A registry of the Claude Code skills and automations I use every day, installable with one command.
 
-![React](https://img.shields.io/badge/React-7C3AED?style=for-the-badge&logo=react&logoColor=white)
-![SwiftUI](https://img.shields.io/badge/SwiftUI-7C3AED?style=for-the-badge&logo=swift&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-7C3AED?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-7C3AED?style=for-the-badge&logo=css3&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-7C3AED?style=for-the-badge&logo=tailwindcss&logoColor=white)
+[See the full case studies →](https://yoavsb25.github.io/#projects)
 
-**Machine Learning**
+## Toolkit
 
-![NumPy](https://img.shields.io/badge/NumPy-A78BFA?style=for-the-badge&logo=numpy&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-A78BFA?style=for-the-badge&logo=pandas&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-A78BFA?style=for-the-badge&logo=jupyter&logoColor=white)
+**AI & automation:** Claude Code, Cursor, LLM integrations, AI agents and tools<br>
+**Languages:** Python, TypeScript, JavaScript, SQL, Bash, Swift<br>
+**Backend:** Flask, Django, Express, REST APIs<br>
+**Infrastructure:** Docker, AWS, GitHub Actions, ArgoCD/Kargo (GitOps), Linux<br>
+**Frontend:** React, Astro, Vite<br>
+**Testing:** Pytest, Playwright, Vitest
 
-**Infrastructure & Tools**
+## Background
 
-![Git](https://img.shields.io/badge/Git-6B7280?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-6B7280?style=for-the-badge&logo=github-actions&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-6B7280?style=for-the-badge&logo=firebase&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-6B7280?style=for-the-badge&logo=vercel&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-6B7280?style=for-the-badge&logo=sqlite&logoColor=white)
-
----
-
-### Featured Projects
-
-| Project | Description | Stack |
-|---------|-------------|-------|
-| [claude-code-tools](https://github.com/Yoavsb25/claude-code-tools) | Curated registry of Claude Code skills and automation tools — browse by category, install via `npx @yoavsb25/claude-tools install <name>`. Ships 10 tools with a companion website. | TypeScript · Node.js · GitHub Actions |
-| [fifa-songs-app](https://github.com/Yoavsb25/fifa-songs-app) | iOS quiz app (Pitch Star) — hear a 30-second clip from the FIFA soundtrack library and guess the year. SwiftUI frontend, StoreKit 2 subscriptions, Firebase daily challenges, 800+ bundled tracks. App Store-ready. | Swift · SwiftUI · iOS 17 · Firebase |
-| [AlertBuddy](https://github.com/Yoavsb25/alert-buddy) | Real-time safety alert platform with friend networks and location-aware notifications. Deployed to production on Vercel. | Django · Python · Vercel |
-| [private-website](https://github.com/Yoavsb25/private-website) | Personal portfolio with animated timeline, dark mode, and project showcase. Deployed to GitHub Pages via CI/CD. | React · TypeScript · Tailwind CSS · Framer Motion |
-| [calendar-analytics](https://github.com/Yoavsb25/calendar-analytics) | Flask app that connects to Google Calendar, aggregates events by name, and exports billable session reports as CSV. | Flask · Python · Google Calendar API |
-| [PDF Batch Merger](https://github.com/Yoavsb25/files-unifier) | Desktop automation tool for high-volume PDF assembly — takes a spreadsheet as input, outputs merged PDFs at scale. | Python · Desktop |
-| [ML From Scratch](https://github.com/Yoavsb25/ml-projects) | Machine learning algorithms implemented from first principles — linear regression through neural networks, without high-level ML frameworks. | Python · NumPy · Jupyter |
-| [RealtyCompanyListing](https://github.com/Yoavsb25/RealtyCompanyListing) | Full-stack real estate listing application with property search and company management. | Django · React |
+**B.Sc. Computer Science & Entrepreneurship**, Reichman University · 2022 – 2025<br>
+**Data Analyst**, Affilomania, Tel Aviv · 2020 – 2021
 
 ---
 
-
-### Connect
-
-[![LinkedIn](https://img.shields.io/badge/Yoav_Sborovsky-LinkedIn-7C3AED?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yoav-sborovsky/)
-[![GitHub](https://img.shields.io/badge/GitHub-Yoavsb25-7C3AED?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Yoavsb25)
+**Need an AI engineer who ships?** I'm looking for AI engineering roles in London or remote. [Contact me](mailto:Yoavsb25@gmail.com) or [download my CV](https://yoavsb25.github.io/yoav-sborovsky-cv.pdf).
