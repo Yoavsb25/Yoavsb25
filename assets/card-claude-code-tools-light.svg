@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="236" viewBox="0 0 460 236" role="img" aria-label="Claude Code tools: The Claude Code skills and automations I use every day, installable with one command.">
+  <title>Claude Code tools: The Claude Code skills and automations I use every day, installable with one command.</title>
+  <defs>
+  <style>
+    .serif { font-family: "Source Serif 4", "Iowan Old Style", Georgia, "Times New Roman", serif; }
+    .sans  { font-family: "Instrument Sans", -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
+    
+  </style>
+  <clipPath id="c"><rect x="1" y="1" width="458" height="234" rx="20"/></clipPath>
+    <radialGradient id="corner"><stop offset="0" stop-color="#0e7a5a" stop-opacity=".16"/><stop offset="1" stop-color="#0e7a5a" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect x=".5" y=".5" width="459" height="235" rx="20" fill="#ffffff" stroke="#dfe4de"/>
+  <g clip-path="url(#c)"><circle cx="460" cy="0" r="120" fill="url(#corner)"/>
+    <rect x="0" y="0" width="460" height="4" fill="#0e7a5a"/></g>
+  <text x="30" y="46" class="sans" font-size="12" font-weight="600" letter-spacing="1.1" fill="#0e7a5a">OPEN SOURCE</text>
+  <text x="422" y="50" class="sans" font-size="22" fill="#0e7a5a">→</text>
+  <text x="29" y="90" class="serif" font-size="30" letter-spacing="-.4" fill="#16191d">Claude Code tools</text>
+  <text x="30" y="124" class="sans" font-size="15.5" fill="#4b535b">The Claude Code skills and automations I use every</text>
+  <text x="30" y="147" class="sans" font-size="15.5" fill="#4b535b">day, installable with one command.</text>
+  <rect x="30" y="178" width="91.0" height="29" rx="14.5" fill="#dcede4" stroke="none"/><text x="75.5" y="197.2" text-anchor="middle" class="sans" font-size="13" font-weight="500" fill="#0e7a5a">TypeScript</text>
+  <rect x="129.0" y="178" width="72.0" height="29" rx="14.5" fill="#dcede4" stroke="none"/><text x="165.0" y="197.2" text-anchor="middle" class="sans" font-size="13" font-weight="500" fill="#0e7a5a">Node.js</text>
+  <rect x="209.0" y="178" width="84.0" height="29" rx="14.5" fill="#dcede4" stroke="none"/><text x="251.0" y="197.2" text-anchor="middle" class="sans" font-size="13" font-weight="500" fill="#0e7a5a">AI agents</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="108" height="44" viewBox="0 0 108 44" role="img" aria-label="LinkedIn">
+  <title>LinkedIn</title>
+  <defs>
+  <style>
+    .serif { font-family: "Source Serif 4", "Iowan Old Style", Georgia, "Times New Roman", serif; }
+    .sans  { font-family: "Instrument Sans", -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
+    
+  </style>
+  </defs>
+  <rect x=".5" y=".5" width="107" height="43" rx="22.0" fill="#ffffff" stroke="#dfe4de"/>
+  <text x="54.0" y="27.4" text-anchor="middle" class="sans" font-size="15" font-weight="600" fill="#16191d">LinkedIn</text>
+</svg>
