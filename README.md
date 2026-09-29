@@ -21,9 +21,9 @@
   <a href="https://github.com/Yoavsb25/claude-code-tools"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-claude-code-tools-dark.svg"><img src="assets/card-claude-code-tools-light.svg" width="49.4%" alt="Claude Code tools: the Claude Code skills and automations I use every day, installable with one command."></picture></a>
 </p>
 
-### Toolkit
+### How I work
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/toolkit-dark.svg">
-  <img src="assets/toolkit-light.svg" width="100%" alt="AI: Claude Code, Cursor, LLM apps, AI agents. Build: Python, TypeScript, React, Flask, Django. Ship: Docker, AWS, GitHub Actions, GitOps, Pytest, Playwright.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/pipeline-dark.svg">
+  <img src="assets/pipeline-light.svg" width="100%" alt="How I work, from idea to production: Plan (product briefs, ADRs, Claude Code), Foundations (Lefthook, ESLint, CodeQL), Architect (Python, TypeScript, REST APIs, Docker), Build (Cursor, React, Django, Flask, SwiftUI), Test (Pytest, Vitest, Playwright, axe), Deploy (GitHub Actions, AWS, Kargo, Firebase), Iterate (AI agents, LLM apps, Lighthouse CI).">
 </picture>
