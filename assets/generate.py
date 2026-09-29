@@ -173,20 +173,20 @@ def button(t, label, primary):
 
 # ---------- Pipeline (toolkit by stage) ----------
 PIPELINE = [
-    ("Plan", "Start with the problem", ["Product briefs", "ADRs", "Claude Code"]),
-    ("Foundations", "Set up the guardrails", ["Lefthook", "ESLint", "CodeQL"]),
-    ("Architect", "Design for change", ["Python", "TypeScript", "REST APIs", "Docker"]),
-    ("Build", "Ship in small steps", ["Cursor", "React", "Django", "Flask", "SwiftUI"]),
-    ("Test", "Prove it works", ["Pytest", "Vitest", "Playwright", "axe"]),
-    ("Deploy", "Release with confidence", ["GitHub Actions", "AWS", "Kargo", "Firebase"]),
-    ("Iterate", "Learn and improve", ["AI agents", "LLM apps", "Lighthouse CI"]),
+    ("Plan", "", ["Claude Code", "Cursor"]),
+    ("Foundations", "", ["Git", "Linux", "Bash"]),
+    ("Architect", "", ["REST APIs", "SQL", "Docker"]),
+    ("Build", "", ["Python", "TypeScript", "JavaScript", "React", "Flask", "Django"]),
+    ("Test", "", ["Playwright", "Pytest", "Vitest"]),
+    ("Deploy", "", ["GitHub Actions", "CI/CD", "AWS", "ArgoCD/Kargo"]),
+    ("Iterate", "", ["AI agents", "LLM apps"]),
 ]
 
 
 def pipeline(t):
     W, n = 960, len(PIPELINE)
     col = W / n
-    rail_y, chip_top, chip_h, chip_gap = 26, 144, 30, 8
+    rail_y, chip_top, chip_h, chip_gap = 26, 100, 30, 8
     rows = max(len(tools) for *_, tools in PIPELINE)
     H = chip_top + rows * (chip_h + chip_gap) + 4
     css = """
@@ -212,7 +212,7 @@ def pipeline(t):
         b.append(f'  <text class="num sans" style="animation-delay:{d:.2f}s" x="{cx:.1f}" y="{rail_y+4.5}" text-anchor="middle" '
                  f'font-size="12.5" font-weight="700" fill="{t["accent_ink"]}">{i+1:02d}</text>')
         g = [f'<text x="{cx:.1f}" y="{rail_y+54}" text-anchor="middle" class="serif" font-size="20" fill="{t["ink"]}">{label}</text>']
-        for j, line in enumerate(wrap(tagline, 12.5, col - 22)):
+        for j, line in enumerate(wrap(tagline, 12.5, col - 22) if tagline else []):
             g.append(f'<text x="{cx:.1f}" y="{rail_y+76+j*16}" text-anchor="middle" class="sans" font-size="12.5" fill="{t["ink3"]}">{escape(line)}</text>')
         for j, tool in enumerate(tools):
             w = min(width(tool, 13, weight=600) + 26, col - 12)

@@ -19,9 +19,9 @@
   <a href="https://github.com/Yoavsb25/claude-code-tools"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-claude-code-tools-dark.svg"><img src="assets/card-claude-code-tools-light.svg" width="49.4%" alt="Claude Code tools: the Claude Code skills and automations I use every day, installable with one command."></picture></a>
 </p>
 
-### How I work
+### Tech stack
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/pipeline-dark.svg">
-  <img src="assets/pipeline-light.svg" width="100%" alt="How I work, from idea to production: Plan (product briefs, ADRs, Claude Code), Foundations (Lefthook, ESLint, CodeQL), Architect (Python, TypeScript, REST APIs, Docker), Build (Cursor, React, Django, Flask, SwiftUI), Test (Pytest, Vitest, Playwright, axe), Deploy (GitHub Actions, AWS, Kargo, Firebase), Iterate (AI agents, LLM apps, Lighthouse CI).">
+  <img src="assets/pipeline-light.svg" width="100%" alt="My tech stack by stage: Plan (Claude Code, Cursor), Foundations (Git, Linux, Bash), Architect (REST APIs, SQL, Docker), Build (Python, TypeScript, JavaScript, React, Flask, Django), Test (Playwright, Pytest, Vitest), Deploy (GitHub Actions, CI/CD, AWS, ArgoCD/Kargo), Iterate (AI agents, LLM apps).">
 </picture>
