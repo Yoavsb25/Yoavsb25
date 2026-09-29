@@ -23,5 +23,5 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
-  <img src="assets/stack-light.svg" width="100%" alt="Tech stack. AI: Claude Code, Cursor, AI agents, LLM apps. Languages: Python, TypeScript, JavaScript, SQL, Bash, Swift. Backend: Flask, Django, Express, REST APIs, Firebase. Frontend: React, Vite, SwiftUI. DevOps: Docker, AWS, GitHub Actions, CI/CD, ArgoCD/Kargo, Jenkins, Linux. Testing: Pytest, Playwright, Vitest, Ruff.">
+  <img src="assets/stack-light.svg" width="100%" alt="Tech stack. AI: Claude Code, Cursor, AI agents, LLM apps. Languages: Python, TypeScript, JavaScript, Java, Swift, SQL, Bash. Backend: Flask, Django, Express, REST APIs, Firebase. Frontend: React, Vite, HTML, CSS, SwiftUI. DevOps: Docker, AWS, GitHub Actions, CI/CD, ArgoCD/Kargo, Jenkins, Linux. Testing: Pytest, Playwright, Vitest, Ruff.">
 </picture>

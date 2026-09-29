@@ -174,9 +174,9 @@ def button(t, label, primary):
 # ---------- Tech stack ----------
 STACK = [
     ("AI", ["Claude Code", "Cursor", "AI agents", "LLM apps"]),
-    ("LANGUAGES", ["Python", "TypeScript", "JavaScript", "SQL", "Bash", "Swift"]),
+    ("LANGUAGES", ["Python", "TypeScript", "JavaScript", "Java", "Swift", "SQL", "Bash"]),
     ("BACKEND", ["Flask", "Django", "Express", "REST APIs", "Firebase"]),
-    ("FRONTEND", ["React", "Vite", "SwiftUI"]),
+    ("FRONTEND", ["React", "Vite", "HTML", "CSS", "SwiftUI"]),
     ("DEVOPS", ["Docker", "AWS", "GitHub Actions", "CI/CD", "ArgoCD/Kargo", "Jenkins", "Linux"]),
     ("TESTING", ["Pytest", "Playwright", "Vitest", "Ruff"]),
 ]
